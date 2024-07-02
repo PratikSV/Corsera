@@ -1,5 +1,6 @@
 body{
     background-color: rgb(15, 15, 15);
+    margin: none;
     
 }
 section{
@@ -7,6 +8,9 @@ section{
     margin: 2%;
     background-color: rgb(48, 48, 48);
     color: azure;
+}
+h1{
+    background-color: rgb(46, 46, 46);
 }
 nav ol li{
     list-style: none;
