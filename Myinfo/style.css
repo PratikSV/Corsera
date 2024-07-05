@@ -1,11 +1,10 @@
 body{
     background-color: rgb(15, 15, 15);
-    margin: none;
-    
+    margin: 0px;
+    padding: 0px;
 }
 section{
     width:96%;
-    margin: 2%;
     background-color: rgb(48, 48, 48);
     color: azure;
 }
@@ -29,7 +28,19 @@ ol li:hover{
     color: rgb(33, 33, 33);
 }
     
-#heding{
-    font-size: 50px;
-    color: aliceblue;
+
+.anton-sc-regular {
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+#heding {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 50px;
+  color: white;
 }
