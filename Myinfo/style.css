@@ -25,3 +25,22 @@ nav ul li{
 .left{
   font-size: 2rem;
 }
+.firstsection{
+  display: flex;
+  justify-content: space-around;
+  margin: 23px 0;
+}
+.firstsection >div{
+  width: 30%;
+}
+.leftsection{
+  width: 34px;
+  font-size: 3rem;
+}
+.rightsection{
+  width: 34px;
+}
+.rightsection img{
+  width: 80%;
+  margin: 50px 0;
+}
