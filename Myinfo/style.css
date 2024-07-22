@@ -3,7 +3,7 @@
   padding: 0px;
 }
 body{
-  background-color: rgb(2, 2, 93);
+  background-color:rgb(0, 0, 46) ;
   color: white;
   font-family: "Poppins";
 }
@@ -11,8 +11,8 @@ nav{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 85px;
-  background-color: rgb(2, 2, 86);
+  height: 80px;
+  background-color: rgb(6, 6, 63);
 }
 nav ul{
   display: flex;
