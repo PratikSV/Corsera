@@ -3,14 +3,6 @@ body{
     margin: 0px;
     padding: 0px;
 }
-section{
-    width:96%;
-    background-color: rgb(48, 48, 48);
-    color: azure;
-}
-h1{
-    background-color: rgb(46, 46, 46);
-}
 nav ol li{
     list-style: none;
     float:left;
@@ -24,8 +16,8 @@ color: beige;
 font-size: 20px;
 }
 ol li:hover{
-    background: rgba(172, 255, 47, 0.434);
-    color: rgb(33, 33, 33);
+    background: rgb(62, 62, 62);
+    color: rgb(176, 176, 176);
 }
     
 
@@ -43,4 +35,5 @@ ol li:hover{
   font-style: normal;
   font-size: 50px;
   color: white;
+  background-color: rgb(46, 46, 46);
 }
