@@ -22,25 +22,36 @@ nav ul li{
   list-style: none;
   margin:0 23px; 
 }
+nav ul li a{
+  color: white;
+  text-decoration: none;
+}
+nav ul li a:hover{
+  color: rgb(151, 151, 255);
+  font-size: 1.04rem;
+}
 .left{
   font-size: 2rem;
 }
 .firstsection{
   display: flex;
   justify-content: space-around;
-  margin: 23px 0;
+  margin: 80px 0;
 }
-.firstsection >div{
+.firstsection > div{
   width: 30%;
 }
 .leftsection{
   width: 34px;
   font-size: 3rem;
+  margin: 30px 0;
 }
 .rightsection{
   width: 34px;
 }
 .rightsection img{
   width: 80%;
-  margin: 50px 0;
+}
+.purple{
+  color: rgb(184, 77, 184);
 }
