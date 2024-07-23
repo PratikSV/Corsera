@@ -5,6 +5,7 @@
            Pratik - Devloper portfolio
         </title>
         <link rel="stylesheet"href="style.css">
+        <link rel="javascript"href="animation.js">
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
@@ -28,12 +29,20 @@
             <section class="firstsection">
                 <div class="leftsection">
                     Hi, My name is <span class="purple">Pratik</span>
-                    <div>and I am passionate Web Developer</div>
+                    <div>and I am passionate</div>
+                    <span id="element"></span>
                 </div>
                 <div class="rightsection">
                     <img src="rightsecimg.png" alt="webdevp_img">
                 </div>
             </section>
         </main>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <script>
+            var typed = new Typed('#element', {
+              strings: ['<i>Web Developer</i>', '<i>Web Designer.</i>','<i>Trader<i>','<i>Cassual Gamer</i>','<i>Video Editor</i>'],
+              typeSpeed: 60,
+            });
+          </script>
     </body>
 </html>
